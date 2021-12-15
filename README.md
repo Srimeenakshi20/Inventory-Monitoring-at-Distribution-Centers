@@ -84,3 +84,6 @@ Optimal Sagemaker instance will be selected based on resource requirement and co
 
 ## Model Performance and Result
 
+
+
+![](images/performance.PNG)
