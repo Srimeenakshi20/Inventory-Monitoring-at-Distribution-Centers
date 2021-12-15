@@ -115,6 +115,8 @@ Optimal Sagemaker instance will be selected based on resource requirement and co
 
 ![](images/performance.PNG)
 
+- Profiler report in uploaded in this repo , please check the files 
+
 
 
 ## Reference
