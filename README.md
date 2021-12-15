@@ -46,4 +46,23 @@ License
 Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States (CC BY-NC-SA 3.0 US) https://creativecommons.org/licenses/by-nc-sa/3.0/us/
 
 
+## Project Setup
 
+In this project AWS cloud platform will be used for model training and deployment
+• AWS Sagemaker is a dedicated services for machine learning model training purpose and this will be used to train the deep learning model
+• S3 will be used for data storage and training model storage
+• Model will be deployed using Endpoint services in AWS
+
+
+## Algorithm
+
+Algorithm that will be used as part of the solution is based on Convolution Neural Network architecture where the images are feed into the network to train the model and will be used for final classification based on the quantity of the goods in the image.
+• PyTorch Deep Learning Framework will be used
+• AWS Sagemaker instance will be initiated and image that is stored in S3 bucket will be used as part of data pipeline.
+• Model will be tuned and model with best hyper parameter will be identified and deployed
+
+
+## Solution requires following components
+- Image Source (Camera)
+- Algorithm to process the image – Convolutional Neural Network model
+- Platform – Cloud
