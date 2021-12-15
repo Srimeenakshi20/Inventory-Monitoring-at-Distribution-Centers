@@ -85,5 +85,8 @@ Optimal Sagemaker instance will be selected based on resource requirement and co
 ## Model Performance and Result
 
 
+Model performance shows a steady decrease in the cross entropy loss and the loss sustains over the training steps. Validation loss is also consistent with this obervation
+However , accuracy of the model is not close to the benchmark and need further experiments on model, data preparation and enperiment setup / paramters
+
 
 ![](images/performance.PNG)
