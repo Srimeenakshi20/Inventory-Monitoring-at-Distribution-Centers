@@ -62,7 +62,25 @@ Algorithm that will be used as part of the solution is based on Convolution Neur
 • Model will be tuned and model with best hyper parameter will be identified and deployed
 
 
+## Platform
+• In this project AWS cloud platform will be used for model training and deployment
+• AWS Sagemaker is a dedicated services for machine learning model training purpose and this will be used to train the deep learning model
+• S3 will be used for data storage and training model storage
+• Model will be deployed using Endpoint services in AWS
+Optimal Sagemaker instance will be selected based on resource requirement and cost factor into consideration
+
+
 ## Solution requires following components
 - Image Source (Camera)
 - Algorithm to process the image – Convolutional Neural Network model
 - Platform – Cloud
+
+
+## Benchmark 
+
+• Following result from silverbottlep is taken as benchmark result for model training https://github.com/silverbottlep/abid_challenge
+• The author has achieved an overall accuracy score of 56 % (Approx.) which will be considered as benchmark and this experiment will focus to achieve this
+
+
+## Model Performance and Result
+
