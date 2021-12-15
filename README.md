@@ -114,3 +114,17 @@ Optimal Sagemaker instance will be selected based on resource requirement and co
 
 
 ![](images/performance.PNG)
+
+
+
+## Reference
+
+
+https://registry.opendata.aws/amazon-bin-imagery/
+https://aft-vbi-pds.s3.amazonaws.com/metadata/523.json.
+https://www.mckinsey.com/industries/metals-and-mining/our-insights/succeeding-in-the-ai-supply-chain-revolution
+Amazon Bin Image Dataset - Registry of Open Data on AWS
+
+
+
+
