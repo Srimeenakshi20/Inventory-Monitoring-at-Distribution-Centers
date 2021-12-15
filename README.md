@@ -76,17 +76,41 @@ Optimal Sagemaker instance will be selected based on resource requirement and co
 - Platform – Cloud
 
 
+**Logs metrics during the training process**
+
+- Metrics are logged during the training process by using the logging module and inserting the codes in script files
+- Logging applied in both hpo.py and train_model.py scripts to log the values
+
 ## Benchmark 
 
 • Following result from silverbottlep is taken as benchmark result for model training https://github.com/silverbottlep/abid_challenge
 • The author has achieved an overall accuracy score of 56 % (Approx.) which will be considered as benchmark and this experiment will focus to achieve this
 
+## Hyperparameter Tuning
+
+**For Hyperparameter Tuning, following three Hyper Parameters are identified**
+
+   - Learning Rate
+   - Batch Size
+   - Epoch
+
+- Though the optimizer used in this experiment is Adam , Learning rate is identified as one of the parameter to tune because it can help to change LR from the suggested default. Which can act as a good initial momentum for the algorithm
+
+**Batch Size batch size is considered good paramter for optmizing computation speed and speed of convergence , therefore batch size is selected**
+
+- Epoch Model need epoch for training and learning , therefore epoch is identified
+
+
+
 
 ## Model Performance and Result
 
 
-Model performance shows a steady decrease in the cross entropy loss and the loss sustains over the training steps. Validation loss is also consistent with this obervation
-However , accuracy of the model is not close to the benchmark and need further experiments on model, data preparation and enperiment setup / paramters
+- Model performance shows a steady decrease in the cross entropy loss and the loss sustains over the training steps. 
+
+- Validation loss is also consistent with this obervation
+
+- However , accuracy of the model is not close to the benchmark and need further experiments on model, data preparation and enperiment setup / paramters
 
 
 ![](images/performance.PNG)
